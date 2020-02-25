@@ -12,13 +12,23 @@
 			"avatars/*"
 		];
 
+		// this.links = window.links = {
+		// 	proxyUrl : "https://cors-anywhere.herokuapp.com/",
+		// 	image : ["https://www.kasandbox.org/third_party/javascript-khansrc/live-editor/build/images/",
+		// 		 	 "https://github.com/Khan/live-editor/tree/master/images",
+		// 			 "https://www.kasandbox.org/programming-images/"],
+		// 	sound : [
+		// 		"https://raw.githubusercontent.com/Khan/live-editor/master/sounds/"
+		// 	]
+		// };
+
 		this.links = window.links = {
-			proxyUrl : "https://cors-anywhere.herokuapp.com/",
-			image : ["https://www.kasandbox.org/third_party/javascript-khansrc/live-editor/build/images/",
-				 	 "https://github.com/Khan/live-editor/tree/master/images",
-					 "https://www.kasandbox.org/programming-images/"],
+			proxyUrl : "",
+			image : ["",
+				 	 "",
+					 ""],
 			sound : [
-				"https://raw.githubusercontent.com/Khan/live-editor/master/sounds/"
+				""
 			]
 		};
 
