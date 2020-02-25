@@ -2,8 +2,8 @@ function main()
 {
     draw = function()
     {
-    	background(255, 255, 255);
-    	image(getImage('avatars/mr-pants-orange'), 20, 20);
+    	background(235, 255, 255);
+    	rect(20, 20, 20, 20);
     };
 }
 
